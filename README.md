@@ -6,7 +6,7 @@ Steps to run this project:
 
    `git clone https://github.com/liisep/RegisterAndLogin.git`
 
-2. Backend is located in the `server root directory`. Server root directory is located inside server directory.
+2. Backend is located in the `server root directory`. Server root directory is located inside server directory. In the terminal (for example git bash) you must move into backend `server root directory`.
 
 3. In the `server root directory` create `.env` file. File named `.envExample` shows all the required fields. Note that in JWT_SECRET you can write any word and number combination you want.
 
@@ -32,7 +32,7 @@ Steps to run this project:
 
    `npm run test` or `npm run test:watch`
 
-9. Now you must go to the `client root directory` where is located the frontend. Client root directory is located inside client directory.
+9. Now you must go to the `client root directory` where is located the frontend. Client root directory is located inside client directory. In the terminal (for example git bash) you must move into frontend `client root directory`.
 
 10. In the `client root directory` run command:
 
