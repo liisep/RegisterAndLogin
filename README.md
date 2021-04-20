@@ -24,7 +24,7 @@ Steps to run this project:
 
    `npm run dev`
 
-Note: Server is running on port 5000.
+   Note: Server is running on port 5000.
 
 8. If you want to run backend tests run the command:
 
@@ -40,7 +40,7 @@ Note: Server is running on port 5000.
 
     `npm start`
 
-Note: Frontend application running on port 3000.
+    Note: Frontend application running on port 3000.
 
 12. If you want to run frontend tests run the command:
 
