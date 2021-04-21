@@ -8,7 +8,9 @@ Steps to run this project:
 
 2. Backend is located in the `server root directory`. Server root directory is located inside server directory. In the terminal (for example git bash) you must move into backend `server root directory`.
 
-3. In the `server root directory` create `.env` file. File named `.envExample` shows all the required fields. Note that in JWT_SECRET you can write any word and number combination you want.
+3. In the `server root directory` create `.env` file. File named `.envExample` shows all the required fields.
+   `JWT_SECRET` you can write any word and number combination you want.
+   `DB_NAME` you can also write whatever name you wish , because database will be created automatically.
 
 4. If `.env` file is created then in the `server root directory` run command:
 
