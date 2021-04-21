@@ -1,15 +1,16 @@
-import mysql, { createConnection } from "mysql";
+import mysql2 from "mysql2";
 import * as dotenv from "dotenv";
 
 dotenv.config();
 
-const con: createConnection = mysql.createConnection({
+const con = mysql2.createConnection({
   host: "localhost",
   user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD
+  password: process.env.DB_PASSWORD,
+  insecureAuth : true
 });
 
-con.connect((err: string) => {
+con.connect((err) => {
   if (err) throw err;
   con.query(`CREATE DATABASE IF NOT EXISTS ??`, process.env.DB_NAME), (err: string) => {
     if (err) throw err;
