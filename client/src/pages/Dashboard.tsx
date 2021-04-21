@@ -38,7 +38,7 @@ const Dashboard: React.FC<Props> = ({setAuth}) => {
     <div className="mt-3"> 
       <ErrorMessage error={error} />
       <div className="d-flex mt-3 justify-content-between">
-        <h3 data-testid="dashboard-title">Yay, you’re logged in {name}</h3>
+        <h3 data-testid="dashboard-title">Yay, you’re logged in as {name}</h3>
         <Logout handleLogout={handleLogout}/>
       </div>   
     </div>
